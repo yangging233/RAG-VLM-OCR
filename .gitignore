@@ -1,0 +1,41 @@
+# Environment files
+backend/.env
+frontend/.env
+.env
+.env.local
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Python caches
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Runtime output and logs
+backend/logs/
+backend/pids/
+backend/output/
+backend/data/
+backend/Text_segmentation/output/
+backend/Database/milvus_server/data/
+backend/knowledge-management/mysql/data/
+backend/Information-Extraction/02_vlm_based/gptpdf/output_bak/
+backend/Information-Extraction/02_vlm_based/output_*/
+output/
+uploads/
+
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
